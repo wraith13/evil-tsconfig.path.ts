@@ -1,0 +1,25 @@
+{
+  "name": "evil-tsconfig.paths.ts",
+  "version": "1.0.0",
+  "description": "When import, resolve paths in tsconfig.json for TypeScript with Node.js",
+  "main": "evil-tsconfig.paths.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wraith13/evil-tsconfig.paths.ts.git"
+  },
+  "keywords": [
+    "tsconfig.json",
+    "paths",
+    "import"
+  ],
+  "author": "wraith13",
+  "license": "BSL-1.0",
+  "bugs": {
+    "url": "https://github.com/wraith13/evil-tsconfig.paths.ts/issues"
+  },
+  "homepage": "https://github.com/wraith13/evil-tsconfig.paths.ts#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.5"
+  }
+}
