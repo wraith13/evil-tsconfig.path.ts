@@ -1,3 +1,4 @@
+// repository: https://github.com/wraith13/evil-tsconfig.paths.ts
 import module from "module";
 export const vanillaRequire = module.prototype.require;
 export const applyPaths = (compilerOptions: { baseUrl?: string, paths?: { [path: string]: string[] } }) =>
