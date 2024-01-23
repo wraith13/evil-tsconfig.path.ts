@@ -2,14 +2,23 @@
 
 When import, resolve paths in tsconfig.json for TypeScript with Node.js
 
-## How to use
+## How to install for your project by npm
 
-1. Copy `evil-tsconfig.paths.ts` file to your project.
-2. Copy the code below at the top of your `index.ts`.
+```sh
+npm install @wraith13/evil-tsconfig.paths.ts --save
+```
+
+## How to install for your project by git submodule
+
+```sh
+git submodule add https://github.com/wraith13/evil-tsconfig.paths.ts evil-tsconfig.paths.ts
+```
+
+## How to use
 
 ```typescript
 import tsconfigJson from "./tsconfig.json";
-import { applyPaths } from "./evil-tsconfig.paths";
+import { applyPaths } from "evil-tsconfig.paths.ts"; // or "@wraith13/evil-tsconfig.paths.ts" when npm
 applyPaths(tsconfigJson.compilerOptions);
 ```
 

@@ -1,9 +1,12 @@
 {
-  "name": "evil-tsconfig.paths.ts",
-  "version": "1.0.0",
+  "name": "@wraith13/evil-tsconfig.paths.ts",
+  "version": "2.0.0",
   "description": "When import, resolve paths in tsconfig.json for TypeScript with Node.js",
-  "main": "evil-tsconfig.paths.ts",
-  "scripts": {},
+  "main": "index.js",
+  "scripts": {
+    "build script": "tsc -p ./tsconfig.json",
+    "watch script": "tsc --watch -p ./tsconfig.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wraith13/evil-tsconfig.paths.ts.git"

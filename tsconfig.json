@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-        "module": "CommonJS",
+        "module": "amd",
         "moduleResolution": "node",
-        "declaration": false,
+        "declaration": true,
         "target": "es5",
         "lib": [
             "es6"
@@ -28,6 +28,13 @@
         "noEmitOnError": true,
         "resolveJsonModule": true,
         "esModuleInterop": true,
-        "sourceMap": true
-    }
+        "sourceMap": true,
+        "outFile": "index.js",
+        "rootDir": "."
+    },
+    "files": [
+        "index.ts"
+    ],
+    "exclude": [
+    ]
 }
